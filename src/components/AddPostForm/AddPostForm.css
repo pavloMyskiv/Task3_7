@@ -1,0 +1,41 @@
+.post_add_form {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.post_add_form label {
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.post_add_form label:nth-child(1) {
+  width: 30%;
+}
+.post_add_form label:nth-child(2) {
+  width: 60%;
+}
+.post_add_form span {
+  font-weight: bold;
+  color: rgb(187, 66, 71);
+}
+.post_add_form input {
+  padding: 5px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.post_add_form button {
+  margin-left: 5px;
+  width: 10%;
+  height: 2.6em;  
+  background-color: rgb(61, 164, 112);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.post_add_form button:hover {
+  transform: scale(1.1);
+}
